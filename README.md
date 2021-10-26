@@ -10,6 +10,8 @@ It uses v.10 (AdapTable Rx) of AdapTable and v.26 of ag-Grid
 
 For full information on how to use the AdapTable React Wrapper see the [AdapTable Documentation](https://docs.adaptabletools.com/docs/react-wrapper/react-wrapper-overview).
 
+For information about the no-code feature see [No Code Plugin](https://docs.adaptabletools.com/docs/plugins/nocode/nocode-plugin/).
+
 ### Installation
 
 NOTE: In order to be able to run `npm install`, you need to be logged into our private NPM registry - follow the instructions in the [Adaptable React Wrapper Intallation Guide](https://docs.adaptabletools.com/docs/react-wrapper/react-wrapper-installation).
