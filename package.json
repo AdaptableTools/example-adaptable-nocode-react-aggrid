@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@adaptabletools/adaptable-plugin-nocode-aggrid": "10.0.0-canary.2",
-    "@adaptabletools/adaptable-react-aggrid": "10.0.0-canary.2",
+    "@adaptabletools/adaptable-plugin-nocode-aggrid": "^10.0.0",
+    "@adaptabletools/adaptable-react-aggrid": "^10.0.0",
     "@ag-grid-community/all-modules": "26.0.0",
     "@ag-grid-community/react": "26.0.0",
     "@ag-grid-enterprise/all-modules": "26.0.0",
