@@ -81,7 +81,7 @@ const NoCodeDemo: React.FunctionComponent = () => {
           <div className="ag-theme-alpine" style={{ flex: 1 }}>
             <AgGridReact
               gridOptions={Object.assign(
-                preparedAdaptableOptions.vendorGrid,
+                preparedAdaptableOptions.gridOptions,
                 gridOptions
               )}
               modules={modules}
