@@ -10,7 +10,7 @@ It uses v.11 (AdapTable) of AdapTable and v.27 of ag-Grid
 
 For full information on how to use the AdapTable React Wrapper see the [AdapTable Documentation](https://docs.adaptabletools.com/learn/react-overview).
 
-For information about the no-code feature see [No Code Plugin](https://docs.adaptabletools.com/docs/plugins/nocode/nocode-plugin/).
+For information about the no-code feature see [No Code Plugin](https://docs.adaptabletools.com/learn/reference-plugins-overview#no-code).
 
 ### Installation
 
