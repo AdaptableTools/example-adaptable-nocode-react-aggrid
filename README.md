@@ -6,11 +6,11 @@ This is a very basic example of how to install and get started with the Adaptabl
 
 The current demo supports the JSON and Excel files.
 
-It uses v.10 (AdapTable Rx) of AdapTable and v.26 of ag-Grid
+It uses v.11 (AdapTable) of AdapTable and v.27 of ag-Grid
 
-For full information on how to use the AdapTable React Wrapper see the [AdapTable Documentation](https://docs.adaptabletools.com/docs/react-wrapper/react-wrapper-overview).
+For full information on how to use the AdapTable React Wrapper see the [AdapTable Documentation](https://docs.adaptabletools.com/learn/react-overview).
 
-For information about the no-code feature see [No Code Plugin](https://docs.adaptabletools.com/docs/plugins/nocode/nocode-plugin/).
+For information about the no-code feature see [No Code Plugin](https://docs.adaptabletools.com/learn/reference-plugins-overview#no-code).
 
 ### Installation
 
@@ -30,7 +30,7 @@ A licence for AdapTable provides access to all product features as well as quart
 
 We can make a trial licence available for a short period of time to allow you to try out AdapTable for yourself.
 
-Please contact [`sales@adaptabletools.com`](mailto:sales@adaptabletools.com) or read the [Licence Documentation](https://docs.adaptabletools.com/docs/getting-started/licence) for more information.
+Please contact [`sales@adaptabletools.com`](mailto:sales@adaptabletools.com) or read the [Licence Documentation](https://docs.adaptabletools.com/licensing) for more information.
 
 ## Demo
 
