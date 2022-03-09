@@ -64,6 +64,13 @@ const NoCodeDemo: React.FunctionComponent = () => {
 
   return (
     <>
+      <div style={{ marginBottom: 20 }}>
+        Upload a JSON/Excel file, or use{' '}
+        <a href="/orders.json" download="orders.json">
+          orders.json.
+        </a>
+      </div>
+
       {!preparedAdaptableOptions && (
         <AdaptableOptionsWizardView
           readFile={formatFile}
