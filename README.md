@@ -6,7 +6,7 @@ This is a very basic example of how to install and get started with the Adaptabl
 
 The current demo supports the JSON and Excel files.
 
-It uses v.11 (AdapTable) of AdapTable and v.27 of ag-Grid
+It uses v.12 (AdapTable) of AdapTable and v.27.3 of AG Grid.
 
 For full information on how to use the AdapTable React Wrapper see the [AdapTable Documentation](https://docs.adaptabletools.com/guide/react-overview).
 
