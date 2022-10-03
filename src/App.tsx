@@ -17,15 +17,23 @@ import '@adaptabletools/adaptable-react-aggrid/themes/light.css';
 import '@adaptabletools/adaptable-react-aggrid/themes/dark.css';
 
 // import aggrid themes (using new Balham theme)
-import '@ag-grid-community/all-modules/dist/styles/ag-grid.css';
-import '@ag-grid-community/all-modules/dist/styles/ag-theme-alpine.css';
-import '@ag-grid-community/all-modules/dist/styles/ag-theme-alpine-dark.css';
-
-import {
-  AllEnterpriseModules,
-  ClientSideRowModelModule,
-  GridOptions,
-} from '@ag-grid-enterprise/all-modules';
+import '@ag-grid-community/core/dist/styles/ag-grid.css';
+import '@ag-grid-community/core/dist/styles/ag-theme-alpine.css';
+import '@ag-grid-community/core/dist/styles/ag-theme-alpine-dark.css';
+import { GridOptions, Module } from '@ag-grid-community/core';
+import { ClientSideRowModelModule } from '@ag-grid-community/client-side-row-model';
+import { ColumnsToolPanelModule } from '@ag-grid-enterprise/column-tool-panel';
+import { MenuModule } from '@ag-grid-enterprise/menu';
+import { SparklinesModule } from '@ag-grid-enterprise/sparklines';
+import { GridChartsModule } from '@ag-grid-enterprise/charts';
+import { ClipboardModule } from '@ag-grid-enterprise/clipboard';
+import { FiltersToolPanelModule } from '@ag-grid-enterprise/filter-tool-panel';
+import { StatusBarModule } from '@ag-grid-enterprise/status-bar';
+import { RichSelectModule } from '@ag-grid-enterprise/rich-select';
+import { SideBarModule } from '@ag-grid-enterprise/side-bar';
+import { RowGroupingModule } from '@ag-grid-enterprise/row-grouping';
+import { RangeSelectionModule } from '@ag-grid-enterprise/range-selection';
+import { ExcelExportModule } from '@ag-grid-enterprise/excel-export';
 
 const gridOptions: GridOptions = {
   suppressMenuHide: true,
@@ -45,7 +53,21 @@ const adaptableOptions: Omit<AdaptableOptions, 'primaryKey'> = {
   },
 };
 
-const modules = [...AllEnterpriseModules, ClientSideRowModelModule];
+const agGridModules: Module[] = [
+  ClientSideRowModelModule,
+  SideBarModule,
+  ColumnsToolPanelModule,
+  FiltersToolPanelModule,
+  StatusBarModule,
+  MenuModule,
+  RangeSelectionModule,
+  RichSelectModule,
+  ExcelExportModule,
+  GridChartsModule,
+  SparklinesModule,
+  RowGroupingModule,
+  ClipboardModule,
+];
 
 const formatFile = (file: File) => {
   const isJSON =
@@ -83,7 +105,6 @@ const NoCodeDemo: React.FunctionComponent = () => {
           <AdaptableReact
             style={{ flex: 'none' }}
             adaptableOptions={preparedAdaptableOptions}
-            modules={modules}
           />
           <div className="ag-theme-alpine" style={{ flex: 1 }}>
             <AgGridReact
@@ -91,7 +112,7 @@ const NoCodeDemo: React.FunctionComponent = () => {
                 preparedAdaptableOptions.gridOptions,
                 gridOptions
               )}
-              modules={modules}
+              modules={agGridModules}
             />
           </div>
         </div>
