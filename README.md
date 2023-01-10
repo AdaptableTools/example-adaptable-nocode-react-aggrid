@@ -1,6 +1,6 @@
-# React No Code Wrapper Template
+# AdapTable No Code Template (using AdapTable React)
 
-This is a very basic example of how to install and get started with the Adaptable React Wrapper and No Code Adaptable No-code Wizard.
+This is a very basic example of how to install and get started with the Adaptable No-code Wizard, using AdapTable React
 
 The current demo supports the JSON and Excel files.
 
