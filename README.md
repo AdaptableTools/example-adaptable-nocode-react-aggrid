@@ -1,6 +1,6 @@
-# example-adaptable-nocode-react-aggrid
+# React No Code Wrapper Template
 
-## React No Code Wrapper example
+This is a very basic example of how to get started with AdapTable React.
 
 This is a very basic example of how to install and get started with the Adaptable React Wrapper and No Code Adaptable No-code Wizard.
 
